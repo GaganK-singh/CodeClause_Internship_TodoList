@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+    <title>TODO List</title>
+    <link type="text/css" rel="stylesheet" href="style.css" </head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<body>
+    <div class="headingText"><strong>TODO LIST</strong></div>
+    <div class="mainDiv">
+        <div class="formDiv">
+            <form autocomplete="off" onsubmit="onFormSubmit()">
+                <div>
+                    <input type="text" name="addTask" id="addTask" placeholder="Add Task">
+                </div>
+                <div class="addButton">
+                    <input type="submit" value="Add" class="addButton">
+                    <input type="reset" value="Reset" class="addButton">
+                </div>
+            </form>
+        </div>
+        <div class="todoDiv">
+            <table class="list" id="storeList">
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>
